@@ -13,7 +13,7 @@ interface WeatherDay {
   iconColor: string; // Color para el ícono
 }
 
-const DAYS_TO_SHOW = 5;
+const DAYS_TO_SHOW = 4;
 const DAYS_TO_FETCH = 7;
 
 const WeatherWidget: React.FC = () => {
