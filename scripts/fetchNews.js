@@ -37,5 +37,3 @@ async function fetchNews() {
 // Ejecutar inmediatamente
 fetchNews();
 
-// Programar ejecución diaria a las 12:00
-scheduleJob("0 12 * * *", fetchNews);
